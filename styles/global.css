@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* SHAPE COLORS */
+  --background-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: #FFFFFF8F;
+
+  /* TEXT COLORS */
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+
+  /* MAIN COLORS */
+  --red: #E3646E;
+  --purple: #BB72E9;
+  --blue: #3996DB;
+  --green: #82BC4F;
+  --yellow: #EABD5F;
+
+  /* BASE COLORS */
+  --gray-100: #0D0E11;
+  --gray-200: #16181D;
+  --gray-300: #292C34;
+  --gray-400: #878EA1;
+  --gray-500: #C0C4CE;
+  --gray-600: #E2E4E9;
+
+  /* TEXT PROPS */
+  --asap-family: 'Asap', sans-serif;
+  --inconsolata-family: 'Inconsolata', monospace;
+  --maven-pro-family: 'Maven Pro', sans-serif;
+  --title-lg: bold 56px/120% var(--asap-family);
+  --title-md: bold 24px/120% var(--asap-family);
+  --title-sm: bold 16px/120% var(--asap-family);
+  --subtitle: normal 20px/120% var(--inconsolata-family);
+  --text-md: 16px/140% var(--maven-pro-family);
+  --text-sm: 14px/140% var(--maven-pro-family);
+}
+
+body {
+  font: var(--text-lg);
+  color: var(--text-color-secondary);
+}
+
+section {
+  height: 100vh;
+  background-color: var(--gray-200);
+}
+
+.ph-bold {
+  margin-top: auto;
+  font-size: 32px;
+  margin-bottom: 2%;
+}
+
+.secondary-title {
+  font: var(--title-md);
+  color: var(--gray-600);
+  margin-top: 8px;
+}
+
+.sub-title {
+  font: var(--text-md);
+  color: var(--gray-500);
+  margin-top: 8px;
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.red {
+  color: var(--red);
+}
+.purple {
+  color: var(--purple);
+}
+.yellow {
+  color: var(--yellow);
+}
+.green {
+  color: var(--green);
+}
+.blue {
+  color: var(--blue);
+}
+
+/* ------PROJECT CARD----- */
+.project-card {
+  width: 330px;
+  height: 280px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: var(--gray-300);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card:hover {
+  outline: 1.5px solid var(--gray-400);
+}
+
+.project-card img {
+  border-radius: 8px;
+  max-width: 306px;
+}
+
+.project-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-card-title {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.project-card-description {
+  font: var(--text-sm);
+  color: var(--gray-600);
+}
+/* ------PROJECT CARD----- */
+
+/* ------CARD----- */
+.card {
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--gray-100);
+  outline: 2px solid var(--gray-200);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card img {
+  border-radius: 8px;
+  max-width: 306px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-title {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.card-description {
+  font: var(--text-sm);
+  color: var(--gray-600);
+}
+/* ------CARD----- */
+
+
+
+/* ------SOCIAL BUTTON----- */
+#social-buttons {
+  display: grid;
+  gap: 16px;
+}
+.social-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+  width: 400px;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  color: var(--gray-500);
+}
+
+.social-button:hover {
+  outline: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+.social-button .ph {
+  font-size: 24px;
+}
+
+.social-button p {
+  width: 288px;
+  font: var(--text-md);
+  font-weight: 600;
+}
+/* ------SOCIAL BUTTON----- */
