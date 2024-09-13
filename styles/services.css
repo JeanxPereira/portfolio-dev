@@ -1,0 +1,22 @@
+#services {
+  background-color: var(--gray-100);
+  height: auto;
+  padding: 88px 120px 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#services .secondary-title {
+  margin-bottom: 56px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card .ph{
+  font-size: 48px;
+}

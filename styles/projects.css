@@ -1,0 +1,16 @@
+#projects {
+  padding: 72px 120px 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#project-cards {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#projects .secondary-title {
+  margin-bottom: 56px;
+}
